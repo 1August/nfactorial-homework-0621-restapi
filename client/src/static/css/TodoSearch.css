@@ -1,0 +1,45 @@
+#searchTodo{
+    padding: 2rem;
+
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #333;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .15);
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 1rem;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#searchTodo input{
+    outline: none;
+
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: transparent;
+
+    width: 100%;
+    padding: 1rem;
+
+    transition: all .5s ease-in-out;
+}
+
+#searchTodo input:focus{
+    background-color: #fff;
+}
+
+#searchTodo button{
+    padding: .5rem 2rem;
+
+    background-color: #fff;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+#searchTodo button:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
