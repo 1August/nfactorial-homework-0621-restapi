@@ -8,7 +8,7 @@ import {TodoList} from "./TodoList"
 
 export const Todo = () => {
     // const BACKEND_URL = 'http://localhost:5000'
-    const BACKEND_URL = 'https://pacific-forest-33278.herokuapp.com'
+    const BACKEND_URL = 'https://damp-spire-94420.herokuapp.com'
 
     const [todo, setTodo] = useState([])
     const [todoAddInput, setTodoAddInput] = useState('')
