@@ -4,6 +4,19 @@ const Todo = require('../models/Todo')
 
 // /api/todo
 router.get(
+    '/',[],
+    async (req, res) => {
+        try {
+            res.status(200).json({message: 'Hello! Go /todo to see list'})
+        } catch (e) {
+            console.log(e)
+        }
+    }
+)
+
+
+// /api/todo
+router.get(
     '/todo',[],
     async (req, res) => {
         try {
